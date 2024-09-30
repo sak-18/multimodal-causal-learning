@@ -16,6 +16,8 @@ dependencies can be installed as follows:
 # install dependencies (preferably, inside your conda/virtual environment)
 $ pip install -r requirements.txt
 
+Created environment: mm_contra_learn
+
 # test if pytorch was installed with cuda support; should not raise an error
 $ python -c "import torch; assert torch.cuda.device_count() > 0, 'No cuda support'"
 ```

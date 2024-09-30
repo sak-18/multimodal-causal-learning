@@ -147,7 +147,7 @@ def main():
 
     # Initialize wandb
     wandb.init(
-        project="multimodal-contrastive-learning",
+        project="multimodal-contrastive-learning-candle",
         name=run_name,  # Dynamic run name with timestamp
         config={
             "learning_rate": args.lr,

@@ -137,6 +137,9 @@ dmypy.json
 # Project-specific
 data/
 models/
+wandb/
+slurm/
+m3di
 *.backup
 *.log
 lsf.o*
