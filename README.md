@@ -1,11 +1,5 @@
-# Identifiability Results for Multimodal Contrastive Learning
+# Multimodal Causal Representation Learning
 
-Official code for the paper [Identifiability Results for Multimodal
-Contrastive Learning](https://arxiv.org/abs/2303.09166) presented at
-[ICLR 2023](https://iclr.cc/Conferences/2023). This repository contains
-pytorch code to reproduce the numerical simulation and the image/text
-experiment. The code to generate the image/text data from scratch is provided
-in a separate repo: [Multimodal3DIdent](https://github.com/imantdaunhawer/Multimodal3DIdent).
 
 ## Installation
 
@@ -51,7 +45,7 @@ $ python main_imgtxt.py --datapath "m3di" --model-id "imgtxt_example" --load-arg
 ```
 
 ## BibTeX
-If you find this project useful, please cite our paper:
+This code is adapted from the code provided by the following paper:
 
 ```bibtex
 @article{daunhawer2023multimodal,
@@ -71,5 +65,6 @@ If you find this project useful, please cite our paper:
 ## Acknowledgements
 
 This project builds on the following resources. Please cite them appropriately.
+- https://github.com/imantdaunhawer/multimodal-contrastive-learning <3
 - https://github.com/ysharma1126/ssl_identifiability <3
 - https://github.com/brendel-group/cl-ica <3
