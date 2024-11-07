@@ -266,7 +266,6 @@ def main():
         step = 1
         loss_values = []  # list to keep track of loss values
         while (step <= args.train_steps):
-
             # training step
             data = next(train_iterator)  # contains images, texts, and labels
             loss_value = train_step(data, encoder_img, encoder_txt, loss_func, optimizer, params)

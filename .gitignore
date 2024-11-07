@@ -140,6 +140,10 @@ models/
 wandb/
 slurm/
 m3di
+CANDLE/CANDLE_confounded/
+CANDLE/CANDLE_unconfounded
+CANDLE/__MACOSX
+CANDLE/__pycache__
 *.backup
 *.log
 lsf.o*
